@@ -1,0 +1,247 @@
+@font-face {
+    font-family: Audiowide;
+    src: url(../fonts/Audiowide-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #979797;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* styling of the header */
+header {
+    background-color: #4b4b4b;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash {
+    color: white;
+    font-family: Audiowide;
+    font-size: 3em;
+}
+
+span {
+    color: black;
+    font-family: Audiowide;
+    font-size: 2em;
+}
+
+/* styling of the main contents */
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin-left: 50px;
+    display: inline;
+}
+
+img {
+    width: 204px;
+    height: 105px;
+    margin-left: 175px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    background-color: #4b4b4b;
+    opacity: 50%;
+}
+
+#watchTime {
+    width: 600px;
+    font-family: Audiowide;
+    font-size: 6em;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#doughnutChart {
+    width: 600px;
+    margin-bottom: 50px;
+
+}
+
+#pieChart {
+    width: 600px;
+}
+
+/* styling of the footer */
+footer {
+    background-color: #4b4b4b;
+    width: 100%;
+    margin-top: 40px;
+    padding: 2px;
+}
+
+.control {
+    color: white;
+    font-family: Audiowide;
+    font-size: 3em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+    .dash {
+        font-size: 1.5em;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    span {
+        font-size: 1.7em;
+    }
+
+    h1 {
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 204px;
+        height: 105px;
+    }
+
+    #watchTime {
+        width: 450px;
+        font-family: Audiowide;
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+    #doughnutChart {
+        max-width: 450px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #pieChart {
+        max-width: 450px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .control {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 850px){
+
+    .dash {
+        font-size: 2em;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    span {
+        font-size: 2.1em;
+    }
+
+    h1 {
+        font-size: 2.7em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #watchTime {
+        width: 500px;
+        font-family: Audiowide;
+        font-size: 2.5em;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    #doughnutChart {
+        max-width: 500px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 135px;
+    }
+
+    #pieChart {
+        max-width: 500px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 135px;
+    }
+
+    .control {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .dash {
+        font-size: 2.5em;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    span {
+        font-size: 2.7em;
+    }
+
+    h1 {
+        font-size: 3em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #watchTime {
+        width: 550px;
+        font-family: Audiowide;
+        font-size: 2.5em;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-left: 300px;
+    }
+
+    #doughnutChart {
+        max-width: 550px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+
+    #pieChart {
+        max-width: 550px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    
+    }
+
+    .control {
+        font-size: 2.5em;
+    }
+
+}
